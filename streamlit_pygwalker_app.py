@@ -40,7 +40,7 @@ components.html(SUB_TITLE, height=80)
 
 #df_startup = pd.read_csv('C:\\Users\\HP\\Documents\\GitHub\\startupproject\\Listofstartups.csv')
 
-df_startup = pd.read_csv('C:\\Users\\HP\\Documents\\GitHub\\startupproject\\Listofstartups.csv', encoding='windows-1252')
+df_startup = pd.read_csv('C:\\Users\\HP\\Documents\\GitHub\\Streamlite_May\\Listofstartups.csv', encoding='windows-1252')
 
 # Embed the HTML into the Streamlit app
 pyg_html = pyg.to_html(df_startup)
